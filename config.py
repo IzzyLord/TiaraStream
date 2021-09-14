@@ -18,6 +18,6 @@ class Veez(object):
         SESSION_NAME = getenv("SESSION_NAME", None)
         DURATION_LIMIT = int(getenv("DURATION_LIMIT", "15"))
         SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-        ASSISTANT_NAME = getenv("ASSISTANT_NAME", "tg_video_stream")
-        BOT_USERNAME = getenv("BOT_USERNAME", "veezvidstreambot")
+        ASSISTANT_NAME = getenv("ASSISTANT_NAME", "AssistanceStreamTiara")
+        BOT_USERNAME = getenv("BOT_USERNAME", "TiaraStream_Bot")
         COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
